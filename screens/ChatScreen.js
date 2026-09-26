@@ -119,7 +119,7 @@ export default function ChatScreen() {
 
     try {
       // IMPORTANT: Update this IP to your computer's local Wi-Fi IP address!
-      let response = await fetch('http://192.168.0.105:8000/chat-vision', {
+      let response = await fetch('https://stahlfitbackend-production.up.railway.app/chat-vision', {
         method: 'POST',
         body: formData,
         headers: {

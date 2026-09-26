@@ -22,9 +22,7 @@ export const hydrateChatHistory = createAsyncThunk(
   }
 );
 
-// const BACKEND_URL = 'http://192.168.0.105:8000/chat';
-const BACKEND_URL = 'http://192.168.0.105:8000/chat';
-
+const BACKEND_URL = 'https://stahlfitbackend-production.up.railway.app/chat';
 
 
 

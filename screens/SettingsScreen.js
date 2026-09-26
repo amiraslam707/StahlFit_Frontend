@@ -61,7 +61,7 @@ export default function SettingsScreen() {
           <View style={styles.divider} />
           <View style={styles.row}>
             <Text style={styles.label}>Backend URL</Text>
-            <Text style={styles.value}>192.168.0.105:8000</Text>
+            <Text style={styles.value}>stahlfitbackend-production.up.railway.app</Text>
           </View>
         </View>
 
